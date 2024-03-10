@@ -1,0 +1,110 @@
+/*THIS IS THE STYLESHEET WHICH IS RESPONSIBLE FOR THE DESIGN AND ALL THE TEXT FORMATTING */
+
+html,/* THIS IS FOR THE WHOLE DOCUMENT*/
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.main-poster { /*FORMATTING FOR THE MAIN POSTER GOES HERE */
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(9, 9, 9, 0.296), rgba(0, 0, 0, 0.534)), url('../images/main-poster.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.logo-img {/*THIS HANDLES THE DESIGN FOR THE LOGO IMAGE DIV */
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+    text-align: start;
+}
+
+.logo-img img { /* THIS HANDLES THE WHOLE IMAGE UNDER THE LOGO-IMG DIV TAG*/
+    height: 50px;
+    width: 50px;
+}
+
+.company-name {/* THIS IS RESPONSIBLE FOR THE FORMATTING OF COMPANY NAME*/
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+}
+
+.movie-reviews {
+    padding-left: 1070px;
+    padding-top: 10px;
+}
+
+.movie-reviews a {
+
+    color: rgb(239, 227, 232);
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.movie-reviews a:hover {
+    color: brown;
+}
+
+.release-date {
+    font-family: monospace;
+    font-weight: 1000;
+    color: white;
+    float: right;
+    margin-top: 150px;
+    margin-right: 200px;
+    letter-spacing: 7px;
+    font-size: 15px;
+}
+
+.movie-name {
+
+    color: rgb(150, 14, 10);
+    letter-spacing: 20px;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: fantasy;
+}
+
+.director-names {
+    margin-top: 50px;
+    font-size: 10px;
+    color: rgb(185, 194, 141);
+    font-size: 15px;
+}
+
+.producer-names {
+    width: 600px;
+    height: 50px;
+    font-size: 12px;
+    font-family: monospace;
+    color: rgb(185, 194, 141);
+    float: right;
+    margin-top: 10px;
+    margin-left: 500px;
+
+    padding-left: 100px;
+    letter-spacing: 2px;
+}
+
+.names-footer {
+    font-family: monospace;
+    color: rgb(185, 194, 141);
+    padding-top: 680px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
